@@ -458,20 +458,4 @@
 
 (provide 'tla-ts-mode)
 
-;;; tla-mode.el ends here
-(setq q
-      '((bounded_quantification
-         expression: (_) @e)))
-(setq qstr "(bounded_quantification expression: (_) @e)")
-(treesit-query-validate 'tlaplus qstr)
-;; (defun test-capture()
-;;     (interactive)
-;;     (mapcar
-;;      (lambda (result)
-;;        (let ((name (car result))
-;;              (node (cdr result))
-;;              )
-;;          (message "For %s got %s" name  (treesit-node-text node))
-;;          ))
-;;      (treesit-query-capture (treesit-buffer-root-node)
-;;                            q)))
+;;; tla-ts-mode.el ends here
